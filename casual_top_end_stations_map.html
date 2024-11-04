@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_41435cb34952a995958fb63ad6cd4a71 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_41435cb34952a995958fb63ad6cd4a71" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_41435cb34952a995958fb63ad6cd4a71 = L.map(
+                "map_41435cb34952a995958fb63ad6cd4a71",
+                {
+                    center: [41.8781, -87.6298],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f231c98c13f89cb7b3040931d0f9b095 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f231c98c13f89cb7b3040931d0f9b095.addTo(map_41435cb34952a995958fb63ad6cd4a71);
+        
+    
+            var circle_marker_a7d3d50ed522e1e6c419077e09e2fcc1 = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_41435cb34952a995958fb63ad6cd4a71);
+        
+    
+        var popup_c8d1797803bf4f4171b9ac0394fe8043 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ce57cd791a356a219183d166570121b = $(`<div id="html_9ce57cd791a356a219183d166570121b" style="width: 100.0%; height: 100.0%;">Streeter Dr & Grand Ave: 3434</div>`)[0];
+                popup_c8d1797803bf4f4171b9ac0394fe8043.setContent(html_9ce57cd791a356a219183d166570121b);
+            
+        
+
+        circle_marker_a7d3d50ed522e1e6c419077e09e2fcc1.bindPopup(popup_c8d1797803bf4f4171b9ac0394fe8043)
+        ;
+
+        
+    
+    
+            var circle_marker_c76cf626dbc6159cc5f837bfdc3ea10c = L.circleMarker(
+                [41.880958, -87.616743],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.277227722772277, "stroke": true, "weight": 3}
+            ).addTo(map_41435cb34952a995958fb63ad6cd4a71);
+        
+    
+        var popup_081ba5ac6ace2c3d6a685b6aadb06c54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa7303f900e5ebeebcca13b690a0ac4f = $(`<div id="html_aa7303f900e5ebeebcca13b690a0ac4f" style="width: 100.0%; height: 100.0%;">DuSable Lake Shore Dr & Monroe St: 2108</div>`)[0];
+                popup_081ba5ac6ace2c3d6a685b6aadb06c54.setContent(html_aa7303f900e5ebeebcca13b690a0ac4f);
+            
+        
+
+        circle_marker_c76cf626dbc6159cc5f837bfdc3ea10c.bindPopup(popup_081ba5ac6ace2c3d6a685b6aadb06c54)
+        ;
+
+        
+    
+    
+            var circle_marker_607feefdb3f0574a18e43f70744750b2 = L.circleMarker(
+                [41.8810317, -87.62408432],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.349446709376819, "stroke": true, "weight": 3}
+            ).addTo(map_41435cb34952a995958fb63ad6cd4a71);
+        
+    
+        var popup_0d54f6ed8430d506c98e18b7115f1eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2c5ced134ab6e0070f3c6ea51f5fbe8 = $(`<div id="html_a2c5ced134ab6e0070f3c6ea51f5fbe8" style="width: 100.0%; height: 100.0%;">Millennium Park: 1777</div>`)[0];
+                popup_0d54f6ed8430d506c98e18b7115f1eb4.setContent(html_a2c5ced134ab6e0070f3c6ea51f5fbe8);
+            
+        
+
+        circle_marker_607feefdb3f0574a18e43f70744750b2.bindPopup(popup_0d54f6ed8430d506c98e18b7115f1eb4)
+        ;
+
+        
+    
+    
+            var circle_marker_beb2c85b8585d6b469a31019f31c66de = L.circleMarker(
+                [41.86722595682, -87.6153553902],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.782760629004077, "stroke": true, "weight": 3}
+            ).addTo(map_41435cb34952a995958fb63ad6cd4a71);
+        
+    
+        var popup_4ad37d3425fcd674f1ae884dbd73c5c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a86dd83b2e39cda61418d841d107b55d = $(`<div id="html_a86dd83b2e39cda61418d841d107b55d" style="width: 100.0%; height: 100.0%;">Shedd Aquarium: 1508</div>`)[0];
+                popup_4ad37d3425fcd674f1ae884dbd73c5c4.setContent(html_a86dd83b2e39cda61418d841d107b55d);
+            
+        
+
+        circle_marker_beb2c85b8585d6b469a31019f31c66de.bindPopup(popup_4ad37d3425fcd674f1ae884dbd73c5c4)
+        ;
+
+        
+    
+    
+            var circle_marker_4a36586e314b3849cc4f04b17384e85d = L.circleMarker(
+                [41.90096039, -87.62377664],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.456610366919046, "stroke": true, "weight": 3}
+            ).addTo(map_41435cb34952a995958fb63ad6cd4a71);
+        
+    
+        var popup_baa6c087eae9823382672d8c821baa55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a157d67c5cf1ec40bb30bad6081ca1bd = $(`<div id="html_a157d67c5cf1ec40bb30bad6081ca1bd" style="width: 100.0%; height: 100.0%;">Michigan Ave & Oak St: 1452</div>`)[0];
+                popup_baa6c087eae9823382672d8c821baa55.setContent(html_a157d67c5cf1ec40bb30bad6081ca1bd);
+            
+        
+
+        circle_marker_4a36586e314b3849cc4f04b17384e85d.bindPopup(popup_baa6c087eae9823382672d8c821baa55)
+        ;
+
+        
+    
+    
+            var circle_marker_76f8325505ec5bac0ab092eccafc43d7 = L.circleMarker(
+                [41.911722, -87.626804],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.453115899825277, "stroke": true, "weight": 3}
+            ).addTo(map_41435cb34952a995958fb63ad6cd4a71);
+        
+    
+        var popup_ae2da7aae255eed308b3f987eac61450 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9a54199cd7e59322c2a1e5418988fc0 = $(`<div id="html_d9a54199cd7e59322c2a1e5418988fc0" style="width: 100.0%; height: 100.0%;">DuSable Lake Shore Dr & North Blvd: 1108</div>`)[0];
+                popup_ae2da7aae255eed308b3f987eac61450.setContent(html_d9a54199cd7e59322c2a1e5418988fc0);
+            
+        
+
+        circle_marker_76f8325505ec5bac0ab092eccafc43d7.bindPopup(popup_ae2da7aae255eed308b3f987eac61450)
+        ;
+
+        
+    
+    
+            var circle_marker_a185e0797b72adf2cd680dc2325092eb = L.circleMarker(
+                [41.872773, -87.623981],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.38905066977286, "stroke": true, "weight": 3}
+            ).addTo(map_41435cb34952a995958fb63ad6cd4a71);
+        
+    
+        var popup_a00b63d8b32f00f6290a6904a36af9e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7c39d35529befef8427b2772220043e = $(`<div id="html_e7c39d35529befef8427b2772220043e" style="width: 100.0%; height: 100.0%;">Michigan Ave & 8th St: 1097</div>`)[0];
+                popup_a00b63d8b32f00f6290a6904a36af9e5.setContent(html_e7c39d35529befef8427b2772220043e);
+            
+        
+
+        circle_marker_a185e0797b72adf2cd680dc2325092eb.bindPopup(popup_a00b63d8b32f00f6290a6904a36af9e5)
+        ;
+
+        
+    
+    
+            var circle_marker_4a90978bf0803a8fefbeb509140cbb1e = L.circleMarker(
+                [41.791478, -87.599861],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.383226557949913, "stroke": true, "weight": 3}
+            ).addTo(map_41435cb34952a995958fb63ad6cd4a71);
+        
+    
+        var popup_0df2b5cd1c387c57dd1ad401d3f2bf8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8452e50cbac163079d98d5a6b28b838a = $(`<div id="html_8452e50cbac163079d98d5a6b28b838a" style="width: 100.0%; height: 100.0%;">University Ave & 57th St: 1096</div>`)[0];
+                popup_0df2b5cd1c387c57dd1ad401d3f2bf8c.setContent(html_8452e50cbac163079d98d5a6b28b838a);
+            
+        
+
+        circle_marker_4a90978bf0803a8fefbeb509140cbb1e.bindPopup(popup_0df2b5cd1c387c57dd1ad401d3f2bf8c)
+        ;
+
+        
+    
+    
+            var circle_marker_53edd4cc9edb6dac90b6b93e3fbf10d7 = L.circleMarker(
+                [41.78509714636, -87.6010727606],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.249271986022132, "stroke": true, "weight": 3}
+            ).addTo(map_41435cb34952a995958fb63ad6cd4a71);
+        
+    
+        var popup_126b5f8b382bfea744b3af7c0f09676a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_282af846ddeffb10a481838568e32bef = $(`<div id="html_282af846ddeffb10a481838568e32bef" style="width: 100.0%; height: 100.0%;">Ellis Ave & 60th St: 1073</div>`)[0];
+                popup_126b5f8b382bfea744b3af7c0f09676a.setContent(html_282af846ddeffb10a481838568e32bef);
+            
+        
+
+        circle_marker_53edd4cc9edb6dac90b6b93e3fbf10d7.bindPopup(popup_126b5f8b382bfea744b3af7c0f09676a)
+        ;
+
+        
+    
+    
+            var circle_marker_e70ad89632e6c3a91ebde339f46d5352 = L.circleMarker(
+                [41.886976, -87.612813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.237623762376238, "stroke": true, "weight": 3}
+            ).addTo(map_41435cb34952a995958fb63ad6cd4a71);
+        
+    
+        var popup_946f50a5e626c7d8d2eb6309424d2344 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_675526f092adb07e747556fb572bb726 = $(`<div id="html_675526f092adb07e747556fb572bb726" style="width: 100.0%; height: 100.0%;">Dusable Harbor: 1071</div>`)[0];
+                popup_946f50a5e626c7d8d2eb6309424d2344.setContent(html_675526f092adb07e747556fb572bb726);
+            
+        
+
+        circle_marker_e70ad89632e6c3a91ebde339f46d5352.bindPopup(popup_946f50a5e626c7d8d2eb6309424d2344)
+        ;
+
+        
+    
+</script>
+</html>
